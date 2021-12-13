@@ -1,0 +1,57 @@
+ .menu {
+     height: 800px;
+     width: 100%;
+     /*background-color: #204e79;*/
+     background-color: #366391;
+     float: left;
+ }
+
+ .content{
+ 	height:800px ;
+ 	width: 100%;
+ 	background-color: #FFFFFF;
+    float: right;
+ }
+
+ .chart-area{
+  height:100px;
+ }
+
+ .title{
+ 	font-size:40px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+ }
+
+.flex {
+	height:770px ;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  background-color: #F0F0F0;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content:stretch;
+}
+
+.item {
+  width: 100%;
+  /*flex-grow、flex-shrink 和 flex-basis*/
+  flex: 1 2 20%;
+  background-color: #FFFFFF;
+  margin: 5px;
+
+  word-break: break-all; 
+  overflow-wrap: break-word;
+
+  display: flex;
+  /*justify-content: center;*/
+  color: black;
+  /*font-size: 2rem;*/
+  font-size: 24px;
+
+}
+
+.Temp{
+	font-size: 13px;
+}

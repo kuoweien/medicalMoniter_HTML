@@ -1,0 +1,214 @@
+<!--左邊欄位-->
+<html>
+
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"></link>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet"  type="text/css" href="style.css" />
+
+<style>
+.well, .panel {text-align: center;}
+</style>
+</head>
+
+<body>
+<!--<script src="script.js"></script>-->
+<div class="container-fluid">
+<div class="row">
+
+<!--左邊欄位-->
+<div class="col-sm-2">
+	<div class="menu">
+	<div class="title">
+		<br><span>R906</span>
+	</div>
+	</div>
+</div>
+
+<!--右邊欄位-->
+<div class="col-sm-10">
+	<div class="well">E HEALTH</div>
+
+	<div class="row"><!--第一行-->
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		<canvas id="canvas1"></canvas>
+    		<!--<img src="/Users/weien/Desktop/kylab專案/電子白板介面/trace_2.png" width="180px" height="90px"></img>-->
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		<canvas id="canvas2"></canvas>
+    		<!--<img src="/Users/weien/Desktop/kylab專案/電子白板介面/trace_2.png" width="180px" height="90px"></img>-->
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-danger">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>2hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		<canvas id="canvas3"></canvas>
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		<canvas id="canvas4"></canvas>
+        </div>
+	</div>
+	</div>
+
+	</div>
+
+	<div class="row"><!--第二行-->
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-danger">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>10</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+	
+	</div>
+
+		<div class="row"><!--第三行-->
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+ 
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-danger">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>15hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+
+	<div class="col-lg-3">
+	<div class="panel panel-info">
+		<div class="panel-heading">ＯＯＯ</div>
+		<table class="table">
+	        <th>心跳</th><th>體溫</th><th>步數</th><th>睡眠</th>
+	        <tr><td>90</td><td>36.5<sup>o</sup>C</td><td>2350</td><td>7.5hr</td></tr>
+    	</table>
+    	<div class="chart-area">
+    		
+        </div>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+
+
+
+</div>
+
+</body>
+
+</html>
+
+<script src="script.js"></script>
+
